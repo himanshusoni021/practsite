@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body style="background-color: #7cace6;">
+
+
+    <hr noshade="5"> 
+
+
+<h2>Fill out this form, please: </h2>
+<br><br>
+
+
+<form action="index.html" method="post" enctype="text/plain">
+
+
+<!-- when action is set to mail, the enctype helps to fetch the right content to draft mail message -->
+<!-- this action tag above defines what next after form submission -->
+<!-- <form action="mailto:himanshusoni.contact@gmail.com" method="post"> -->
+<!-- why above stuff is not working... don't put form cloase tag here, then it will work -->
+
+
+    <label>Your Name  </label>   
+    <!-- labels don't have self closing need to close manually -->
+    <input type="text" name="" id="">    
+    <!-- inputs have self closing tag -->
+    <br><br><label>Your Mail Id  </label>
+    <input type="email" name="" id="">
+    <input type="button" value="Request otp">
+    <br><label>Please verify your Mail Id, enter code received on mail: </label>
+    <input type="password" name="" id="">     <input type="button" value="Verify">
+
+
+<!-- try to add a scroll down menu to set date and time here, instead of manual and also the input interface, the old style big box-->
+   
+<br><br><label>Date and Time</label>
+    <!-- <input type="datetime" name="" id=""> -->
+    <input type="date" name="" id="">
+    <input type="time" name="" id="">
+    <br><br><label>Your Social Profile or Portfolio Link</label>
+    <input type="url" name="" id=""> 
+    <br><br><label>"Please describe in short, topics to talk upon"</label>
+    <!-- <input type="text" name="" id=""> -->
+    <br><textarea name="" id="" cols="40" rows="8"></textarea>
+
+    <br><br><br>
+    <label>"Please confirm out chat"</label>
+    <input type="checkbox" name="" id=""> 
+    <!-- <input type="radio" name="" id=""> -->
+
+<!--  try to make this above checkbox compulsory  -->
+
+    <!-- <input type="color" name="colour" id=""> -->
+    <!-- <input type="button" value="Submit"> -->
+    <input type="submit" value="Submit">
+<br><br>
+    <hr noshade="5"> 
+</form>
+    
+</body>
+</html>
